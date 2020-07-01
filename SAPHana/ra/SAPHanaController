@@ -34,7 +34,7 @@
 #     systemReplicationStatus.py (>= SPS090)
 #
 #######################################################################
-SAPHanaControllerVersion="0.170.3.0626.1125"
+SAPHanaControllerVersion="0.170.3.0630.1656"
 #
 # Initialization:
 timeB=$(date '+%s')
@@ -2089,7 +2089,7 @@ function is_master_nameserver()
            ;;
         master[123]:* )
            rc=0
-           ;;
+           ;;      
         * )
            rc=1
            ;;
